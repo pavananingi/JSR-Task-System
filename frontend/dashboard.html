@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Dashboard</title>
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<div class="topbar">
+
+<div class="menu" onclick="toggleMenu()">☰</div>
+
+<h2>
+JSR 
+<span class="red">G</span>roup of Corporatives
+</h2>
+
+<div id="username"></div>
+
+</div>
+
+<div id="sidebar" class="sidebar">
+
+<button onclick="showTodo()">To-Do List</button>
+<button onclick="showCalendar()">Calendar</button>
+<button onclick="showSettings()">Settings</button>
+<button onclick="logout()">Logout</button>
+
+</div>
+
+<div id="content"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
